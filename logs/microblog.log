@@ -1,0 +1,75 @@
+2019-08-09 13:37:58,428 ERROR: Exception on / [GET] [in c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\agustin\Desktop\AI\FlaskApps - tutorial\HelloWorldApp\app\routes.py", line 36, in index
+    prev_url=prev_url)
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\agustin\Desktop\AI\FlaskApps - tutorial\HelloWorldApp\app\templates\index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+jinja2.exceptions.TemplateRuntimeError: extended multiple times
+2019-08-09 13:38:00,032 ERROR: Exception on /index [GET] [in c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\agustin\Desktop\AI\FlaskApps - tutorial\HelloWorldApp\app\routes.py", line 36, in index
+    prev_url=prev_url)
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\agustin\appdata\local\programs\python\python35\lib\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\agustin\Desktop\AI\FlaskApps - tutorial\HelloWorldApp\app\templates\index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+jinja2.exceptions.TemplateRuntimeError: extended multiple times
+2019-08-09 13:39:09,781 INFO: Microblog startup [in C:\Users\agustin\Desktop\AI\FlaskApps - tutorial\HelloWorldApp\app\__init__.py:51]
+2019-08-09 15:16:43,703 INFO: Microblog startup [in C:\Users\agustin\Desktop\AI\FlaskApps - tutorial\HelloWorldApp\app\__init__.py:51]
+2019-08-09 15:17:47,827 INFO: Microblog startup [in C:\Users\agustin\Desktop\AI\FlaskApps - tutorial\HelloWorldApp\app\__init__.py:51]
+2019-08-09 15:19:37,007 INFO: Microblog startup [in C:\Users\agustin\Desktop\AI\FlaskApps - tutorial\HelloWorldApp\app\__init__.py:51]
+2019-08-09 15:21:52,768 INFO: Microblog startup [in C:\Users\agustin\Desktop\AI\FlaskApps - tutorial\HelloWorldApp\app\__init__.py:51]
+2019-08-09 15:23:08,999 INFO: Microblog startup [in C:\Users\agustin\Desktop\AI\FlaskApps - tutorial\HelloWorldApp\app\__init__.py:51]
+2019-08-09 15:23:56,031 INFO: Microblog startup [in C:\Users\agustin\Desktop\AI\FlaskApps - tutorial\HelloWorldApp\app\__init__.py:51]
+2019-08-09 15:39:13,128 INFO: Microblog startup [in C:\Users\agustin\Desktop\AI\FlaskApps - tutorial\HelloWorldApp\app\__init__.py:52]
+2019-08-09 16:01:58,372 INFO: Microblog startup [in C:\Users\agustin\Desktop\AI\FlaskApps - tutorial\HelloWorldApp\app\__init__.py:54]
+2019-08-10 11:00:18,565 INFO: Microblog startup [in C:\Users\agustin\Desktop\AI\FlaskApps - tutorial\HelloWorldApp\app\__init__.py:54]
+2019-08-10 11:00:28,739 INFO: Microblog startup [in C:\Users\agustin\Desktop\AI\FlaskApps - tutorial\HelloWorldApp\app\__init__.py:54]
+2019-08-10 11:30:11,707 INFO: Microblog startup [in C:\Users\agustin\Desktop\AI\FlaskApps - tutorial\HelloWorldApp\app\__init__.py:54]
+2019-08-10 12:06:11,443 INFO: Microblog startup [in C:\Users\agustin\Desktop\AI\FlaskApps - tutorial\HelloWorldApp\app\__init__.py:54]
