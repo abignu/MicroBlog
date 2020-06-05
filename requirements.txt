@@ -40,7 +40,7 @@ dask==0.19.1
 deap==1.2.2
 decorator==4.3.0
 dimod==0.7.6
-Django==2.1.1
+Django==2.2.13
 dlx==1.0.4
 docker==4.0.2
 docloud==1.0.369
