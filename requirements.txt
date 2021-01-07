@@ -121,7 +121,7 @@ librosa==0.6.2
 lightfm==1.15
 lightgbm==2.2.3
 llvmlite==0.24.0
-lxml==3.8.0
+lxml==4.6.2
 Mako==1.1.0
 Markdown==2.6.9
 MarkupSafe==1.0
